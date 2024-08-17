@@ -1,4 +1,6 @@
 version: '3'
+name: cloakedovpn
+
 services:
 
   dockovpn:
@@ -6,7 +8,7 @@ services:
     cap_add:
         - NET_ADMIN
     networks:
-        - ovpn-cloak-network
+        - cloaked-ovpn-network
     environment:
         HOST_ADDR: 127.0.0.1
         HOST_TUN_PROTOCOL: tcp
@@ -17,10 +19,10 @@ services:
   dockcloak:
     image: ahmedahmedeg/dockcloak
     networks:
-        - ovpn-cloak-network
+        - cloaked-ovpn-network
     ports:
         - 443:443/tcp
     restart: always
     
 networks:
-  ovpn-cloak-network:
+  cloaked-ovpn-network:
