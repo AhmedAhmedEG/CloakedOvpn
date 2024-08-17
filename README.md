@@ -21,7 +21,7 @@ Just run Build.bat and it will automate the whole process, at the end it will wa
 }
 ```
 
-2- Download the cloak client v2.9.0 from the official repo and execute this command:-
+2- Download the cloak client v2.9.0 from the official repo (https://github.com/cbeuw/Cloak/releases/tag/v2.9.0) and execute this command:-
 ```
 ck-client-windows-amd64-v2.9.0.exe -c "ckclient.json" -s <server ip address> -l 1194
 ```
