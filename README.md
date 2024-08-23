@@ -15,6 +15,7 @@ Just run Build.bat and it will automate the whole process, at the end it will wa
   "UID": "D21TMAQmz3qGMAgWzyDfFQ==",
   "PublicKey": "oVYWCZEzVfLh7uQ2QPY0L/0KAmlHutnFXsR433b1MQY=",
   "ServerName": "cloudflare.com",
+  "AlternativeNames": ["google.com", "github.com"],
   "NumConn": 4,
   "BrowserSig": "chrome",
   "StreamTimeout": 300
